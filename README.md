@@ -12,7 +12,21 @@
 The non-configurable configuration loader for lazy people.
 
 <details><summary><h2>Contents</h2></summary>
+
 <!-- toc -->
+
+- [Fork](#fork)
+- [Usage](#usage)
+- [Standards](#standards)
+- [Configuration File Formats](#configuration-file-formats)
+- [Simple example demonstrating precedence](#simple-example-demonstrating-precedence)
+- [Advanced Usage](#advanced-usage)
+- [Pass in your own parser](#pass-in-your-own-parser)
+- [Note on Performance](#note-on-performance)
+- [License](#license)
+
+<!-- tocstop -->
+
 </details>
 
 ## Fork
