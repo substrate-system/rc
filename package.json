@@ -1,6 +1,6 @@
 {
   "name": "@substrate-system/rc",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "description": "hardwired configuration loader",
   "type": "module",
   "files": [
