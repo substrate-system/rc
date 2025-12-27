@@ -1,9 +1,8 @@
 {
   "name": "@substrate-system/rc",
-  "type": "module",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "hardwired configuration loader",
-  "main": "dist/index.js",
+  "type": "module",
   "files": [
     "./dist/*"
   ],
@@ -25,6 +24,11 @@
     "version": "npm run toc && auto-changelog -p --template keepachangelog --breaking-pattern 'BREAKING CHANGE:' && git add CHANGELOG.md README.md",
     "postversion": "git push --follow-tags && npm publish",
     "prepublishOnly": "npm run build"
+  },
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "test": "test"
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
@@ -51,13 +55,21 @@
     "unix",
     "defaults"
   ],
+  "homepage": "https://github.com/substrate-system/rc",
+  "bugs": {
+    "url": "https://github.com/substrate-system/rc/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/substrate-system/rc.git"
+    "url": "git+https://github.com/substrate-system/rc.git"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
   "contributors": [
-    "nichoth <nichoth@nichoth.com> (https://nichoth.com)"
+    {
+      "name": "nichoth",
+      "email": "nichoth@nichoth.com",
+      "url": "https://nichoth.com"
+    }
   ],
   "license": "SEE LICENSE IN LICENSE"
 }
