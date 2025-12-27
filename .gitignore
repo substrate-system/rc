@@ -1,3 +1,9 @@
 node_modules
-node_modules/*
-npm_debug.log
+bundle.js
+.DS_Store
+src/*.js
+test/*.js*
+test/index.d.ts*
+dist
+.env
+.claude
